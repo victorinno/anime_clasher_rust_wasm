@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <div align="center">
 
   <h1><code>wasm-pack-template</code></h1>
@@ -68,6 +67,3 @@ wasm-pack publish
   for logging panic messages to the developer console.
 * [`wee_alloc`](https://github.com/rustwasm/wee_alloc), an allocator optimized
   for small code size.
-=======
-# anime_clasher_rust_wasm
->>>>>>> 00ab5d5e70750918fdbdf6d0200c980822023c72

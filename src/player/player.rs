@@ -85,11 +85,11 @@ impl PlayerSotorage {
         self.sync_local_storage();
     }
 
-    pub fn get(&self) -> Option<&Player>{
+    pub fn getPlayer(&self) -> Option<&Player> {
         let n = &self.data.name;
-        match &n[..]{
+        match &n[..] {
             "" => None,
-            _ => Some(&self.data)
+            _ => Some(&self.data),
         }
     }
 }
